@@ -1,0 +1,2090 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "game-displays-an-image;outside-cafe-image",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Outside Cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 595051800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321682198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14404199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see an image of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30783999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29851499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31291999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game-displays-an-image;inside-cafe-image",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Inside Cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 643504800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274971198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61498399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see an image displayed inside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46118198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30752899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22639299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game-displays-an-image;empty-street-image",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Empty Street Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 580043999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372137898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46238000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see an image of the empty street",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30907098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45813999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23458800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game-displays-an-image;crowded-bar-image",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Crowded Bar Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 588424600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288819098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46659299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click the \"Go East\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46860298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an image of a crowded bar",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31026899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29987200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34338200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game-displays-an-image;country-side-image",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Country-side Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573691600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325546300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44442099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see an image of the country-side",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30438898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31095999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21900200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "game-displays-an-image;guitarist-and-saxplayer-image",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Guitarist and Saxplayer Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 571773699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321604299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46969899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click the \"Go West\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45577499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see an image of a guitarist and saxplayer",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31693999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29366399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23457599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "game-displays-an-image",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Game displays an image",
+    "tags": [],
+    "uri": "tests\\features\\displayImage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "help-button;clicking-the-help-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Clicking the help button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 576133599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291694300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46258398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see helpful text",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30110300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31040299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21422900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-the-continue-button",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Clicking the continue button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 584649400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212814599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I have clicked the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44791198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45582098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be outside of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31345999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24149900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-help-then-continue-in-the-bar",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Clicking help then continue in the bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587053700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am inside the bar",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323205398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I have clicked the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45594699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46055499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be inside the bar",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30967699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21167999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "help-button",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Help Button",
+    "tags": [],
+    "uri": "tests\\features\\helpButton.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "die-in-all-locations;outside-cafe-image",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Outside Cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 582630400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244804198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15328999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see an image of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30140499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30952400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25775399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "die-in-all-locations;inside-cafe-image",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Inside Cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 588517699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231942399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45705499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see an image displayed inside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31136600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17787217499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30357299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40963899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "die-in-all-locations;empty-street-image",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Empty Street Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 566952300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305973898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45013299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see an image of the empty street",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30577598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10789464198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30667000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33919900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "die-in-all-locations;crowded-bar-image",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Crowded Bar Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 574090800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307304599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46655800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click the \"Go East\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47306698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should see an image of a crowded bar",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30395900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18997587499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30296800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23166700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "die-in-all-locations;country-side-image",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Country-side Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 593891300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305579999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45668198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see an image of the country-side",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31187900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10805724700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31638199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31200299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "die-in-all-locations;guitarist-and-saxplayer-image",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Guitarist and Saxplayer Image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 576332099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228904100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46669699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I click the \"Go West\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45804098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I should see an image of a guitarist and saxplayer",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31226500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3797769998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29759899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29694299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "die-in-all-locations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Die in all locations",
+    "tags": [],
+    "uri": "tests\\features\\iDieAllLocations.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "lose-game;losing-the-game",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Losing the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578875299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353170698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3812325199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30465499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24068799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "lose-game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Lose Game",
+    "tags": [],
+    "uri": "tests\\features\\loseGame.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "progress-bar;3-visible-progress-bars",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "3 visible progress bars",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570481500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212846998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15595999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see \"Health\", \"Money\" and \"Espressos\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60631299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25798299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "progress-bar;losing-health",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Losing Health",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 582700899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323762000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have noted the initial resource values",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62191999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Wait\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46184400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should have lost \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30256300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26152600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "progress-bar;gaining-espressos",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Gaining Espressos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 583421900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289402599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I have noted the initial resource values",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62088500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46734999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"Buy an espresso\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46997600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should have gained \"Espressos\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15415299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should have gained \"Health\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15633198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should have lost \"Money\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30756599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25425399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "progress-bar",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Progress Bar",
+    "tags": [],
+    "uri": "tests\\features\\progressBar.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-inside-the-bar-for-resources",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Waiting inside the bar for resources",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570102500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in the Bar",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402655199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I wait until I have \"a can of beer\" in my \"bag\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5227630999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should have \"a can of beer\" in my \"bag\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31321699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39344400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-at-the-guitarist-and-saxplayer-scene",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Waiting at the Guitarist and Saxplayer scene",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 574797000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am at the Guitarist and Saxplayer scene",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308112098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have noted the initial \"Money\" value",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31299800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I wait until I can click the \"Jam with the band\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1087053200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should have received 5 \"Money\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30775699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23368600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "wait-mechanic-to-gain-resources",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Wait mechanic to gain resources",
+    "tags": [],
+    "uri": "tests\\features\\waitResource.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "win-game;winning-the-game",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Winning the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 591370299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274881399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45538400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the \"Go West\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44875998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I wait until I can click the \"Jam with the band\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079912499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the \"Go East\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46408599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45812000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the \"Go North\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30434399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"Go East\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31748499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I wait until I have \"a can of beer\" in my \"bag\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1084697599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the \"Go West\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30926799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click the \"Go South\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30718600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46105800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click the \"Buy an espresso\" button 3 times",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\winGame.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1618292799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I wait until I can click the \"Give beer to barista\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1065533498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should have 5 \"Espressos\"",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\winGame.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31105699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see the \"Play again\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\albin\\Documents\\repos\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31012499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32013900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "win-game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Win Game",
+    "tags": [],
+    "uri": "tests\\features\\winGame.feature"
+  }
+]
